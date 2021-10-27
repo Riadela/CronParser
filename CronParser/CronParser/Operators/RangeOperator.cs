@@ -58,7 +58,7 @@ namespace CronParser.Operators
 
         private void LogError(string error)
         {
-            Console.WriteLine(error + " - " + _timeUnit);
+            Console.WriteLine(error + " - " + _timeUnit.cronValue);
         }
     }
 }
