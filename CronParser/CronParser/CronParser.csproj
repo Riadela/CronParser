@@ -50,6 +50,11 @@
     <Compile Include="Operators\RangeOperator.cs" />
     <Compile Include="Operators\SlashOperator.cs" />
     <Compile Include="Operators\ValueOperator.cs" />
+    <Compile Include="Services\Interfaces\ICronParserService.cs" />
+    <Compile Include="Services\Interfaces\ICronPrinterService.cs" />
+    <Compile Include="Services\CronParserService.cs" />
+    <Compile Include="Services\CronPrinterService.cs" />
+    <Compile Include="Controllers\CommandController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pocos\" />
@@ -58,6 +63,9 @@
     <Folder Include="Operators\" />
     <Folder Include="Operators\Interfaces\" />
     <Folder Include="Utility\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
