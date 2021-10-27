@@ -41,11 +41,23 @@
     <Compile Include="TimeUnits\HourUnit.cs" />
     <Compile Include="TimeUnits\MinuteUnit.cs" />
     <Compile Include="TimeUnits\MonthUnit.cs" />
+    <Compile Include="Operators\Interfaces\IOperator.cs" />
+    <Compile Include="Operators\Interfaces\IOperatorDelegator.cs" />
+    <Compile Include="Operators\AsteriskOperator.cs" />
+    <Compile Include="Utility\RangeUtility.cs" />
+    <Compile Include="Operators\CommaOperator.cs" />
+    <Compile Include="Operators\OperatorDelegator.cs" />
+    <Compile Include="Operators\RangeOperator.cs" />
+    <Compile Include="Operators\SlashOperator.cs" />
+    <Compile Include="Operators\ValueOperator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pocos\" />
     <Folder Include="TimeUnits\" />
     <Folder Include="TimeUnits\Interfaces\" />
+    <Folder Include="Operators\" />
+    <Folder Include="Operators\Interfaces\" />
+    <Folder Include="Utility\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

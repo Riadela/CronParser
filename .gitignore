@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+*.pdb
+CronParser/CronParser/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+*.cache
+CronParser/CronParser/obj/Debug/CronParser.csproj.FileListAbsolute.txt
