@@ -24,9 +24,8 @@ namespace CronParser.Controllers
             _cronParserService = cronParserService;
         }
 
-        public void ExecuteCommands(string cronCommand)
+        public void ExecuteCommands(string[] cronArguments)
         {
-            string[] cronArguments = cronCommand.Split(' ');
             var mok = new MinuteUnit(cronArguments[ARG_MINUTE]);
 
             if (cronArguments.Length == 6)

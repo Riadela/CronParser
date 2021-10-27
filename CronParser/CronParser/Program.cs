@@ -18,8 +18,7 @@ namespace CronParser
 
             CommandController commandController = new CommandController(cronPrinterService, cronParserService);
 
-            string input = Console.ReadLine();
-            commandController.ExecuteCommands(input);
+            commandController.ExecuteCommands(args);
         }
     }
 }
