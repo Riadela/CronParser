@@ -1,6 +1,6 @@
 # Cron Expression Parser
  
-This is a C# project, containing a Cron Expression Parser, which supports the standard cron format with five fields, `Minutes, Hour, Day of Month, Month and Day of Week`, and as well as some operators `, - * /` .
+This is a C# project, containing a Cron Expression Parser, which supports the standard cron format with five fields, `Minutes, Hour, Day of Month, Month and Day of Week`, and as well as some of the operators `, - * /` .
 
 This is runnable on Windows, Linux and macOS.
 
@@ -28,3 +28,7 @@ month           1 2 3 4 5 6 7 8 9 10 11 12
 day of week     1 2 3 4 5 
 command         /usr/bin/find
 ```
+
+## Unit testing
+
+Unfortunately, the console project is targeting .Net 4.7.2 framework, but on macOS we can only create create UnitTest projects targeting .Net Core, so our project is not testable on Linux based OS at the moment.
