@@ -34,9 +34,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pocos\CronOutput.cs" />
     <Compile Include="Pocos\Unit.cs" />
+    <Compile Include="TimeUnits\Interfaces\ITimeUnit.cs" />
+    <Compile Include="TimeUnits\DayMonthUnit.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="TimeUnits\DayWeekUnit.cs" />
+    <Compile Include="TimeUnits\HourUnit.cs" />
+    <Compile Include="TimeUnits\MinuteUnit.cs" />
+    <Compile Include="TimeUnits\MonthUnit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pocos\" />
+    <Folder Include="TimeUnits\" />
+    <Folder Include="TimeUnits\Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
